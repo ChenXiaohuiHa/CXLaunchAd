@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+//#import "CXLauchMovieViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //另一种启动页视频播放方式
+    
+//    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    CXLauchMovieViewController *vc = [[CXLauchMovieViewController alloc] init];
+//    window.rootViewController = vc;
+//    self.window = window;
+//    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

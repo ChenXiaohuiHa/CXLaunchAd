@@ -13,6 +13,37 @@
 		C01BD2A5216C822F00C94107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01BD2A4216C822F00C94107 /* Assets.xcassets */; };
 		C01BD2A8216C822F00C94107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01BD2A6216C822F00C94107 /* LaunchScreen.storyboard */; };
 		C01BD2AB216C822F00C94107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BD2AA216C822F00C94107 /* main.m */; };
+		C01BD2B3216C823900C94107 /* CXLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BD2B2216C823900C94107 /* CXLaunchAdManager.m */; };
+		C09E4E04216C89950005F028 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DE9216C89950005F028 /* FLAnimatedImage.m */; };
+		C09E4E05216C89950005F028 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DEA216C89950005F028 /* FLAnimatedImageView.m */; };
+		C09E4E06216C89950005F028 /* XHLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DF1216C89950005F028 /* XHLaunchAdView.m */; };
+		C09E4E07216C89950005F028 /* XHLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DF4216C89950005F028 /* XHLaunchAdButton.m */; };
+		C09E4E08216C89950005F028 /* XHLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DF6216C89950005F028 /* XHLaunchImageView.m */; };
+		C09E4E09216C89950005F028 /* XHLaunchAdConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DF7216C89950005F028 /* XHLaunchAdConst.m */; };
+		C09E4E0A216C89950005F028 /* XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DF9216C89950005F028 /* XHLaunchAd.m */; };
+		C09E4E0B216C89950005F028 /* XHLaunchAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DFA216C89950005F028 /* XHLaunchAdController.m */; };
+		C09E4E0C216C89950005F028 /* XHLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DFB216C89950005F028 /* XHLaunchAdDownloader.m */; };
+		C09E4E0D216C89950005F028 /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DFD216C89950005F028 /* XHLaunchAdImageView+XHLaunchAdCache.m */; };
+		C09E4E0E216C89950005F028 /* XHLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4DFE216C89950005F028 /* XHLaunchAdConfiguration.m */; };
+		C09E4E0F216C89950005F028 /* XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4E00216C89950005F028 /* XHLaunchAdCache.m */; };
+		C09E4E10216C89950005F028 /* XHLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4E02216C89950005F028 /* XHLaunchAdImageManager.m */; };
+		C09E4E14216C8AE70005F028 /* CXLaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4E13216C8AE70005F028 /* CXLaunchAdModel.m */; };
+		C09E4E19216C8CA90005F028 /* CXNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4E18216C8CA90005F028 /* CXNetwork.m */; };
+		C09E4E26216C8CFD0005F028 /* LaunchVideoAd.json in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E1B216C8CFD0005F028 /* LaunchVideoAd.json */; };
+		C09E4E27216C8CFD0005F028 /* video0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E1C216C8CFD0005F028 /* video0.mp4 */; };
+		C09E4E28216C8CFD0005F028 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E1D216C8CFD0005F028 /* video1.mp4 */; };
+		C09E4E29216C8CFD0005F028 /* LaunchImageAd.json in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E1E216C8CFD0005F028 /* LaunchImageAd.json */; };
+		C09E4E2A216C8CFD0005F028 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E1F216C8CFD0005F028 /* image4.jpg */; };
+		C09E4E2B216C8CFD0005F028 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E20216C8CFD0005F028 /* image1.jpg */; };
+		C09E4E2C216C8CFD0005F028 /* image12.gif in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E21216C8CFD0005F028 /* image12.gif */; };
+		C09E4E2D216C8CFD0005F028 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E22216C8CFD0005F028 /* image0.jpg */; };
+		C09E4E2E216C8CFD0005F028 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E23216C8CFD0005F028 /* image2.jpg */; };
+		C09E4E2F216C8CFD0005F028 /* image11.gif in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E24216C8CFD0005F028 /* image11.gif */; };
+		C09E4E30216C8CFD0005F028 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E25216C8CFD0005F028 /* image3.jpg */; };
+		C09E4E3E216CC9880005F028 /* CXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4E3D216CC9880005F028 /* CXWebViewController.m */; };
+		C09E4E41216CD3570005F028 /* opening_long_1080*1920.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E3F216CD3570005F028 /* opening_long_1080*1920.mp4 */; };
+		C09E4E42216CD3570005F028 /* opening_short_1080*1920.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C09E4E40216CD3570005F028 /* opening_short_1080*1920.mp4 */; };
+		C09E4E45216CD3FB0005F028 /* CXLauchMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E4E44216CD3FB0005F028 /* CXLauchMovieViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +57,55 @@
 		C01BD2A7216C822F00C94107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01BD2A9216C822F00C94107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01BD2AA216C822F00C94107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C01BD2B1216C823900C94107 /* CXLaunchAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLaunchAdManager.h; sourceTree = "<group>"; };
+		C01BD2B2216C823900C94107 /* CXLaunchAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLaunchAdManager.m; sourceTree = "<group>"; };
+		C09E4DE9216C89950005F028 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		C09E4DEA216C89950005F028 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		C09E4DEB216C89950005F028 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		C09E4DEC216C89950005F028 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		C09E4DEE216C89950005F028 /* XHLaunchAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdController.h; sourceTree = "<group>"; };
+		C09E4DEF216C89950005F028 /* XHLaunchAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAd.h; sourceTree = "<group>"; };
+		C09E4DF0216C89950005F028 /* XHLaunchAdDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdDownloader.h; sourceTree = "<group>"; };
+		C09E4DF1216C89950005F028 /* XHLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdView.m; sourceTree = "<group>"; };
+		C09E4DF2216C89950005F028 /* XHLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdCache.h; sourceTree = "<group>"; };
+		C09E4DF3216C89950005F028 /* XHLaunchAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConfiguration.h; sourceTree = "<group>"; };
+		C09E4DF4216C89950005F028 /* XHLaunchAdButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdButton.m; sourceTree = "<group>"; };
+		C09E4DF5216C89950005F028 /* XHLaunchAdImageView+XHLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XHLaunchAdImageView+XHLaunchAdCache.h"; sourceTree = "<group>"; };
+		C09E4DF6216C89950005F028 /* XHLaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchImageView.m; sourceTree = "<group>"; };
+		C09E4DF7216C89950005F028 /* XHLaunchAdConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdConst.m; sourceTree = "<group>"; };
+		C09E4DF8216C89950005F028 /* XHLaunchAdImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdImageManager.h; sourceTree = "<group>"; };
+		C09E4DF9216C89950005F028 /* XHLaunchAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAd.m; sourceTree = "<group>"; };
+		C09E4DFA216C89950005F028 /* XHLaunchAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdController.m; sourceTree = "<group>"; };
+		C09E4DFB216C89950005F028 /* XHLaunchAdDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdDownloader.m; sourceTree = "<group>"; };
+		C09E4DFC216C89950005F028 /* XHLaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchImageView.h; sourceTree = "<group>"; };
+		C09E4DFD216C89950005F028 /* XHLaunchAdImageView+XHLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XHLaunchAdImageView+XHLaunchAdCache.m"; sourceTree = "<group>"; };
+		C09E4DFE216C89950005F028 /* XHLaunchAdConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdConfiguration.m; sourceTree = "<group>"; };
+		C09E4DFF216C89950005F028 /* XHLaunchAdButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdButton.h; sourceTree = "<group>"; };
+		C09E4E00216C89950005F028 /* XHLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdCache.m; sourceTree = "<group>"; };
+		C09E4E01216C89950005F028 /* XHLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdView.h; sourceTree = "<group>"; };
+		C09E4E02216C89950005F028 /* XHLaunchAdImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdImageManager.m; sourceTree = "<group>"; };
+		C09E4E03216C89950005F028 /* XHLaunchAdConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConst.h; sourceTree = "<group>"; };
+		C09E4E12216C8AE70005F028 /* CXLaunchAdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLaunchAdModel.h; sourceTree = "<group>"; };
+		C09E4E13216C8AE70005F028 /* CXLaunchAdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLaunchAdModel.m; sourceTree = "<group>"; };
+		C09E4E17216C8CA90005F028 /* CXNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXNetwork.h; sourceTree = "<group>"; };
+		C09E4E18216C8CA90005F028 /* CXNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXNetwork.m; sourceTree = "<group>"; };
+		C09E4E1B216C8CFD0005F028 /* LaunchVideoAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchVideoAd.json; sourceTree = "<group>"; };
+		C09E4E1C216C8CFD0005F028 /* video0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video0.mp4; sourceTree = "<group>"; };
+		C09E4E1D216C8CFD0005F028 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		C09E4E1E216C8CFD0005F028 /* LaunchImageAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchImageAd.json; sourceTree = "<group>"; };
+		C09E4E1F216C8CFD0005F028 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		C09E4E20216C8CFD0005F028 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		C09E4E21216C8CFD0005F028 /* image12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image12.gif; sourceTree = "<group>"; };
+		C09E4E22216C8CFD0005F028 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		C09E4E23216C8CFD0005F028 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		C09E4E24216C8CFD0005F028 /* image11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image11.gif; sourceTree = "<group>"; };
+		C09E4E25216C8CFD0005F028 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		C09E4E3C216CC9880005F028 /* CXWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXWebViewController.h; sourceTree = "<group>"; };
+		C09E4E3D216CC9880005F028 /* CXWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXWebViewController.m; sourceTree = "<group>"; };
+		C09E4E3F216CD3570005F028 /* opening_long_1080*1920.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "opening_long_1080*1920.mp4"; sourceTree = "<group>"; };
+		C09E4E40216CD3570005F028 /* opening_short_1080*1920.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "opening_short_1080*1920.mp4"; sourceTree = "<group>"; };
+		C09E4E43216CD3FB0005F028 /* CXLauchMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLauchMovieViewController.h; sourceTree = "<group>"; };
+		C09E4E44216CD3FB0005F028 /* CXLauchMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLauchMovieViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +138,14 @@
 		C01BD29A216C822D00C94107 /* CXLaunchAd */ = {
 			isa = PBXGroup;
 			children = (
+				C09E4E46216CD4070005F028 /* LauchMovie */,
+				C09E4E11216C8A540005F028 /* LaunchManager */,
 				C01BD29B216C822D00C94107 /* AppDelegate.h */,
 				C01BD29C216C822D00C94107 /* AppDelegate.m */,
 				C01BD29E216C822D00C94107 /* ViewController.h */,
 				C01BD29F216C822D00C94107 /* ViewController.m */,
+				C09E4E3C216CC9880005F028 /* CXWebViewController.h */,
+				C09E4E3D216CC9880005F028 /* CXWebViewController.m */,
 				C01BD2A1216C822D00C94107 /* Main.storyboard */,
 				C01BD2A4216C822F00C94107 /* Assets.xcassets */,
 				C01BD2A6216C822F00C94107 /* LaunchScreen.storyboard */,
@@ -69,6 +153,123 @@
 				C01BD2AA216C822F00C94107 /* main.m */,
 			);
 			path = CXLaunchAd;
+			sourceTree = "<group>";
+		};
+		C09E4DE7216C89950005F028 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C09E4DE8216C89950005F028 /* FLAnimatedImage */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C09E4DE8216C89950005F028 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				C09E4DE9216C89950005F028 /* FLAnimatedImage.m */,
+				C09E4DEA216C89950005F028 /* FLAnimatedImageView.m */,
+				C09E4DEB216C89950005F028 /* FLAnimatedImage.h */,
+				C09E4DEC216C89950005F028 /* FLAnimatedImageView.h */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		C09E4DED216C89950005F028 /* XHLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+				C09E4DEE216C89950005F028 /* XHLaunchAdController.h */,
+				C09E4DEF216C89950005F028 /* XHLaunchAd.h */,
+				C09E4DF0216C89950005F028 /* XHLaunchAdDownloader.h */,
+				C09E4DF1216C89950005F028 /* XHLaunchAdView.m */,
+				C09E4DF2216C89950005F028 /* XHLaunchAdCache.h */,
+				C09E4DF3216C89950005F028 /* XHLaunchAdConfiguration.h */,
+				C09E4DF4216C89950005F028 /* XHLaunchAdButton.m */,
+				C09E4DF5216C89950005F028 /* XHLaunchAdImageView+XHLaunchAdCache.h */,
+				C09E4DF6216C89950005F028 /* XHLaunchImageView.m */,
+				C09E4DF7216C89950005F028 /* XHLaunchAdConst.m */,
+				C09E4DF8216C89950005F028 /* XHLaunchAdImageManager.h */,
+				C09E4DF9216C89950005F028 /* XHLaunchAd.m */,
+				C09E4DFA216C89950005F028 /* XHLaunchAdController.m */,
+				C09E4DFB216C89950005F028 /* XHLaunchAdDownloader.m */,
+				C09E4DFC216C89950005F028 /* XHLaunchImageView.h */,
+				C09E4DFD216C89950005F028 /* XHLaunchAdImageView+XHLaunchAdCache.m */,
+				C09E4DFE216C89950005F028 /* XHLaunchAdConfiguration.m */,
+				C09E4DFF216C89950005F028 /* XHLaunchAdButton.h */,
+				C09E4E00216C89950005F028 /* XHLaunchAdCache.m */,
+				C09E4E01216C89950005F028 /* XHLaunchAdView.h */,
+				C09E4E02216C89950005F028 /* XHLaunchAdImageManager.m */,
+				C09E4E03216C89950005F028 /* XHLaunchAdConst.h */,
+			);
+			path = XHLaunchAd;
+			sourceTree = "<group>";
+		};
+		C09E4E11216C8A540005F028 /* LaunchManager */ = {
+			isa = PBXGroup;
+			children = (
+				C01BD2B1216C823900C94107 /* CXLaunchAdManager.h */,
+				C01BD2B2216C823900C94107 /* CXLaunchAdManager.m */,
+				C09E4E1A216C8CFD0005F028 /* Resource */,
+				C09E4DE7216C89950005F028 /* Lib */,
+				C09E4DED216C89950005F028 /* XHLaunchAd */,
+				C09E4E32216C8D720005F028 /* Model */,
+				C09E4E31216C8D590005F028 /* Network */,
+			);
+			path = LaunchManager;
+			sourceTree = "<group>";
+		};
+		C09E4E1A216C8CFD0005F028 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C09E4E1B216C8CFD0005F028 /* LaunchVideoAd.json */,
+				C09E4E1C216C8CFD0005F028 /* video0.mp4 */,
+				C09E4E1D216C8CFD0005F028 /* video1.mp4 */,
+				C09E4E1E216C8CFD0005F028 /* LaunchImageAd.json */,
+				C09E4E1F216C8CFD0005F028 /* image4.jpg */,
+				C09E4E20216C8CFD0005F028 /* image1.jpg */,
+				C09E4E21216C8CFD0005F028 /* image12.gif */,
+				C09E4E22216C8CFD0005F028 /* image0.jpg */,
+				C09E4E23216C8CFD0005F028 /* image2.jpg */,
+				C09E4E24216C8CFD0005F028 /* image11.gif */,
+				C09E4E25216C8CFD0005F028 /* image3.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C09E4E31216C8D590005F028 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C09E4E17216C8CA90005F028 /* CXNetwork.h */,
+				C09E4E18216C8CA90005F028 /* CXNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C09E4E32216C8D720005F028 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C09E4E12216C8AE70005F028 /* CXLaunchAdModel.h */,
+				C09E4E13216C8AE70005F028 /* CXLaunchAdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C09E4E46216CD4070005F028 /* LauchMovie */ = {
+			isa = PBXGroup;
+			children = (
+				C09E4E47216CD4A10005F028 /* Resource */,
+				C09E4E43216CD3FB0005F028 /* CXLauchMovieViewController.h */,
+				C09E4E44216CD3FB0005F028 /* CXLauchMovieViewController.m */,
+			);
+			path = LauchMovie;
+			sourceTree = "<group>";
+		};
+		C09E4E47216CD4A10005F028 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C09E4E3F216CD3570005F028 /* opening_long_1080*1920.mp4 */,
+				C09E4E40216CD3570005F028 /* opening_short_1080*1920.mp4 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +329,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09E4E2A216C8CFD0005F028 /* image4.jpg in Resources */,
 				C01BD2A8216C822F00C94107 /* LaunchScreen.storyboard in Resources */,
+				C09E4E26216C8CFD0005F028 /* LaunchVideoAd.json in Resources */,
+				C09E4E2C216C8CFD0005F028 /* image12.gif in Resources */,
 				C01BD2A5216C822F00C94107 /* Assets.xcassets in Resources */,
+				C09E4E30216C8CFD0005F028 /* image3.jpg in Resources */,
+				C09E4E28216C8CFD0005F028 /* video1.mp4 in Resources */,
+				C09E4E42216CD3570005F028 /* opening_short_1080*1920.mp4 in Resources */,
+				C09E4E27216C8CFD0005F028 /* video0.mp4 in Resources */,
+				C09E4E41216CD3570005F028 /* opening_long_1080*1920.mp4 in Resources */,
+				C09E4E29216C8CFD0005F028 /* LaunchImageAd.json in Resources */,
 				C01BD2A3216C822D00C94107 /* Main.storyboard in Resources */,
+				C09E4E2B216C8CFD0005F028 /* image1.jpg in Resources */,
+				C09E4E2F216C8CFD0005F028 /* image11.gif in Resources */,
+				C09E4E2E216C8CFD0005F028 /* image2.jpg in Resources */,
+				C09E4E2D216C8CFD0005F028 /* image0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +355,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09E4E0F216C89950005F028 /* XHLaunchAdCache.m in Sources */,
+				C01BD2B3216C823900C94107 /* CXLaunchAdManager.m in Sources */,
+				C09E4E07216C89950005F028 /* XHLaunchAdButton.m in Sources */,
+				C09E4E0A216C89950005F028 /* XHLaunchAd.m in Sources */,
+				C09E4E06216C89950005F028 /* XHLaunchAdView.m in Sources */,
+				C09E4E10216C89950005F028 /* XHLaunchAdImageManager.m in Sources */,
+				C09E4E08216C89950005F028 /* XHLaunchImageView.m in Sources */,
+				C09E4E0E216C89950005F028 /* XHLaunchAdConfiguration.m in Sources */,
+				C09E4E45216CD3FB0005F028 /* CXLauchMovieViewController.m in Sources */,
+				C09E4E0C216C89950005F028 /* XHLaunchAdDownloader.m in Sources */,
 				C01BD2A0216C822D00C94107 /* ViewController.m in Sources */,
+				C09E4E09216C89950005F028 /* XHLaunchAdConst.m in Sources */,
+				C09E4E04216C89950005F028 /* FLAnimatedImage.m in Sources */,
 				C01BD2AB216C822F00C94107 /* main.m in Sources */,
+				C09E4E0B216C89950005F028 /* XHLaunchAdController.m in Sources */,
+				C09E4E14216C8AE70005F028 /* CXLaunchAdModel.m in Sources */,
 				C01BD29D216C822D00C94107 /* AppDelegate.m in Sources */,
+				C09E4E3E216CC9880005F028 /* CXWebViewController.m in Sources */,
+				C09E4E19216C8CA90005F028 /* CXNetwork.m in Sources */,
+				C09E4E05216C89950005F028 /* FLAnimatedImageView.m in Sources */,
+				C09E4E0D216C89950005F028 /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +517,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RTPA62VT2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CXLaunchAd",
+				);
 				INFOPLIST_FILE = CXLaunchAd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,6 +532,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chenXiaoHui.CXLaunchAd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Debug;
 		};
@@ -301,7 +540,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RTPA62VT2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CXLaunchAd",
+				);
 				INFOPLIST_FILE = CXLaunchAd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +555,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chenXiaoHui.CXLaunchAd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Release;
 		};
